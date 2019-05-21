@@ -1,0 +1,109 @@
+// project001.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include <iostream >
+
+int pandun(int a, int b,int c,int d);
+int paixu(int a, int b,int c,int d);
+int _tmain(int argc, _TCHAR* argv[])
+{
+	using namespace std;
+	int k;
+	int a,b,c,d;
+	cout << "请输入一个四位整数: " << "\n";
+	cin >> k ;
+	if (k /1000 >= 1)
+	{
+		a = (int)(k /1000);
+		b = (int)((k - 1000 * a) /100);
+		c = (int)((k - 1000 * a - 100 * b) / 10);
+		d = (int)((k - 1000 * a - 100 * b - 10 * c));
+		int A = a*10 + b;
+		int B = c*10 + d;
+		if (a != 0,c != 0)
+			int pandun(int a, int b,int c,int d);
+		for (int i = 0;i < 3;i++)
+			cout << papixu[i];
+	}
+	else 
+		cout << "输入的数不为四位，请重新输入一个四位数。";
+		cin.get();
+	return 0;
+}
+
+int pandun(int a, int b,int c,int d)
+{
+	if ((a*10 + b) > (c*10 + d))
+		if(!(a*10 + b) / 5)
+			if(!(c*10 + d)/2)
+			int paixu(int a, int b,int c,int d);
+			return 0;
+}
+int paixu(int a, int b,int c,int d)
+{
+	int paixu[4];
+	paixu[0] = max1;
+	paixu[1] = max2;
+	paixu[2] = max3;
+}
+int max(int m,int n)
+{
+	if (m > n)
+
+}
+}
+
+
+
+
+
+// project001.cpp : 定义控制台应用程序的入口点。
+//
+
+#include "stdafx.h"
+#include <iostream>
+int shushu(int a);
+void ZSS(int m,int n);
+int _tmain(int argc, _TCHAR* argv[])
+{
+	using namespace std;
+	int m = 0,n = 0;
+	cout << "请输入两个数m, k(m,n都大于0）,我们会找出将大于整数m且紧靠m的k个素数:\n";
+	cout << "输入m: \n";
+	cin >> m;
+	cout << "输入n:\n";
+	cin >> n;
+	ZSS(m,n);
+	cin.get();
+	cin.get();
+}
+
+void ZSS(int m,int n)
+
+{
+	using namespace std;
+	int count = 0;
+	for (int i = m;i < 1000000 && count < n;i++)
+	{
+		if (i == 1) continue;
+		else if (shushu(i)!=0)
+		{
+			count++;
+			cout << i << "  ";
+		}
+		else continue;
+	}
+}
+int shushu(int a)
+{
+	using namespace std;
+	int k=1;
+	for(int i=2;i<=a;i++)
+		{
+			if(a%i==0)
+			k=0;
+		else
+			return k;
+	}
+}
